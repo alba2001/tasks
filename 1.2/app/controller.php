@@ -31,5 +31,5 @@ switch ($task)
             echo App::setPacientName($id, $name);
         break;
     default :
-        include PATH_TEMPLATES.'main.tpl.php';
+        include PATH_ROOT.'/main.tpl.php';
 }

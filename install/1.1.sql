@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS `items` (
+CREATE TABLE IF NOT EXISTS `tsk1_items` (
   `id` int(10) NOT NULL,
   `parentid` int(10) NOT NULL,
   `item` varchar(100) NOT NULL,
@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS `items` (
   KEY `parentid` (`parentid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO `items` (`id`, `parentid`, `item`) VALUES
+INSERT INTO `tsk1_items` (`id`, `parentid`, `item`) VALUES
 (1, 0, 'Item 1'),
 (2, 0, 'Item 2'),
 (3, 0, 'Item 3'),

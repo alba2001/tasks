@@ -16,7 +16,7 @@ defined('PATH_ROOT') or die;
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <script src="<?=Config::base_url()?>/task12.js"></script>
+        <script src="task12.js"></script>
     </head>
     <body>
         <div class="container-fluid" id="container_1_2">

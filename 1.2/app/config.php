@@ -20,7 +20,7 @@ class Config
      */
     public static function base_url()
     {
-        return 'http://abfx.vini-cloud.ru';
+        return 'http://abfx.vini-cloud.ru/1.2';
     }
    /**
     * Параметры подключения к БД
