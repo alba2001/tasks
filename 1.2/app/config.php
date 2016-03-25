@@ -14,14 +14,6 @@ defined('PATH_ROOT') or die;
  */
 class Config
 {
-    /**
-     * URL главной страницы (без index.php и слеша в конце)
-     * @return string
-     */
-    public static function base_url()
-    {
-        return 'http://abfx.vini-cloud.ru/1.2';
-    }
    /**
     * Параметры подключения к БД
     * @return array
